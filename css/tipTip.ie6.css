@@ -1,0 +1,10 @@
+/* Selection of rules to make tiptip work in IE6 */
+
+#tiptip_content {
+  background-color: #000;
+  color: #fff;
+}
+
+#tiptip_arrow {
+  display:none;
+}

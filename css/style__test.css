@@ -1,0 +1,127 @@
+/* css reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';}
+
+body{
+  background:black;
+  color:white;
+  text-align:center;
+}
+
+a{
+  text-decoration:none;
+  color:rgb(100,255,200);
+}
+
+.clear{
+  clear:  both;
+}
+
+h1{
+  font-size: 1.5em;
+  line-height: 1.6em;
+  font-weight:normal;
+  font-family: "MS Gothic","微軟正黑體",sans-serif;
+}
+
+div#main{
+  background:rgb(10,30,35);
+  border:1px solid rgb(30,50,45);
+  width:850px;
+  min-height:400px;
+  margin:5px auto;
+  text-align:left;
+}
+div#logo{
+  width:  100%;
+  overflow: hidden;
+  height:190px;
+  border-bottom:1px solid rgb(10,20,20);
+  position:relative;
+}
+
+div#login{
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+
+#content{
+  margin:5px;
+  padding:3px;
+  color:white;
+  font: 1em "新細明體";
+}
+
+/* tag cloud */
+#tag-cloud a{
+  padding:3px 2px;
+}
+.cloud-3{
+  font-size:1.3em;
+  color:#40afa0;
+}
+.cloud-5{
+  font-size:2em;
+  color:#50fff0;
+}
+
+/* ansiart gallery */
+.ansi-gallery{
+  line-height:0px;
+  padding:0px 1px;
+  margin-bottom:15px;
+  background:#19272b;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.ansi-item{
+  display:inline-block;
+  padding:4px 3px;
+  color:white;
+  width:202px;
+  word-wrap: break-word;
+  vertical-align:top;
+}
+
+.ansi-item div.title{
+  font-size:1em;
+  line-height:1.5em;
+  text-align:center;
+}
+
+.ansi-item img{
+  border:1px solid white;
+/*  min-height:120px;*/
+}
+a.ansi-item:hover {
+  border:1px solid #80E0FF;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background:#80E0FF;
+  color:#20506F;
+  padding:3px 2px;
+}
+a.ansi-item:hover img{
+  border-color:black;
+}
+
+/* form */
+.field_with_errors{
+  display: inline-block;
+}
+.field_with_errors label{
+  color: #FF7777;
+}
+.field_with_errors input{
+  border: 1px solid red;
+}
