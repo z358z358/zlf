@@ -40,7 +40,6 @@ if(mysql_num_rows($rows))
 
 $row = mysql_fetch_assoc($rows);
 
-
 if ($row['ID']=='onininon' || ($row['ID']!=''&&$row['PASSWORD']==$password) )//&&$row[6]==$password2)
   {
 	

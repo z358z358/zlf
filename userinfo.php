@@ -103,7 +103,7 @@ if(empty($_GET['act']))
 		
 
 	<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:0px"><a href="userinfo.php"><img src="images/userinfo/userinfo.on.png" border="0"/></a></div>
-	<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:177.5px"><a href="userinfo.php?act=account"><img src="images/userinfo/rg.png." border="0"/></a></div>
+	<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:177.5px"><a href="userinfo.php?act=account"><img src="images/userinfo/rg.png" border="0"/></a></div>
 	<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:355px"><a href="userinfo.php?act=transaction"><img src="images/userinfo/thin.png" border="0"/></a></div>
 	<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:532.5px"><a href="userinfo.php?act=rank"><img src="images/userinfo/thout.png" border="0"/></a></div>
 
@@ -403,14 +403,14 @@ else if($_GET['act']=='transaction')
 ?>
 <div class="rightmain floatR corner" data-corner="TL 60px cc:#FFFFFF">
 	<div class="fullimg absolute" style="z-index:9;height:40px;width:177.5px;margin-left:0px"><a href="userinfo.php"><img src="images/userinfo/userinfo.png" border="0"/></a></div>
-	<div class="fullimg absolute" style="z-index:9;height:40px;width:177.5px;margin-left:177.5px"><a href="userinfo.php?act=account"><img src="images/userinfo/rg.png." border="0"/></a></div>
+	<div class="fullimg absolute" style="z-index:9;height:40px;width:177.5px;margin-left:177.5px"><a href="userinfo.php?act=account"><img src="images/userinfo/rg.png" border="0"/></a></div>
 	<div class="fullimg absolute" style="z-index:9;height:40px;width:177.5px;margin-left:355px"><a href="userinfo.php?act=transaction"><img src="images/userinfo/thin.on.png" border="0"/></a></div>
 	<div class="fullimg absolute" style="z-index:9;height:40px;width:177.5px;margin-left:532.5px"><a href="userinfo.php?act=rank"><img src="images/userinfo/thout.png" border="0"/></a></div>
 	
 	<div class="corner info whitebg left"  data-corner="bottom 20px">
 		<div style="padding:20px">
 		<div id="chose1" class="fullimg absolute opacity" style="z-index:9;margin-left:0px"><a href="userinfo.php?act=transaction"><img src="images/userinfo/chose1.png" border="0"/></a></div>
-		<div id="chose2" class="fullimg absolute opacity" style="z-index:9;margin-left:223px"><a href="userinfo.php?act=transaction&act2=shopping"><img src="images/userinfo/chose2.png." border="0"/></a></div>
+		<div id="chose2" class="fullimg absolute opacity" style="z-index:9;margin-left:223px"><a href="userinfo.php?act=transaction&act2=shopping"><img src="images/userinfo/chose2.png" border="0"/></a></div>
 		<div id="chose3" class="fullimg absolute opacity" style="z-index:9;margin-left:446px"><a href="userinfo.php?act=transaction&act2=rank"><img src="images/userinfo/chose3.png" border="0"/></a></div>
 		<div style="height:29px"></div>
 
@@ -707,7 +707,7 @@ else if($_GET['act']=='account')
 	
 
 		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:0px"><a href="userinfo.php"><img src="images/userinfo/userinfo.png" border="0"/></a></div>
-		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:177.5px"><a href="userinfo.php?act=account"><img src="images/userinfo/rg.on.png." border="0"/></a></div>
+		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:177.5px"><a href="userinfo.php?act=account"><img src="images/userinfo/rg.on.png" border="0"/></a></div>
 		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:355px"><a href="userinfo.php?act=transaction"><img src="images/userinfo/thin.png" border="0"/></a></div>
 		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:532.5px"><a href="userinfo.php?act=rank"><img src="images/userinfo/thout.png" border="0"/></a></div>
 
@@ -741,7 +741,7 @@ else if($_GET['act']=='rank')
 	
 
 		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:0px"><a href="userinfo.php"><img src="images/userinfo/userinfo.png" border="0"/></a></div>
-		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:177.5px"><a href="userinfo.php?act=account"><img src="images/userinfo/rg.png." border="0"/></a></div>
+		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:177.5px"><a href="userinfo.php?act=account"><img src="images/userinfo/rg.png" border="0"/></a></div>
 		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:355px"><a href="userinfo.php?act=transaction"><img src="images/userinfo/thin.png" border="0"/></a></div>
 		<div class="fullimg absolute" style="z-index:999;height:40px;width:177.5px;margin-left:532.5px"><a href="userinfo.php?act=rank"><img src="images/userinfo/thout.on.png" border="0"/></a></div>
 

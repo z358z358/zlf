@@ -40,14 +40,14 @@ echo '<input type="hidden" name="next" value='.urlencode($_GET['next']).' />';
 ?>
 			<div style="line-height:30px">
 				<p><b>帳號&nbsp</b>
-				<input type='text' name='id' 
+				<input type='text' name='id' value="onininon"
 <?php
 if(isset($_COOKIE['cookieid'])&&$_COOKIE['cookieid']!='')
 echo "value=$_COOKIE[cookieid]";
 ?>
 				/></p>
 				<p><b>密碼&nbsp</b>
-				<input type="password" name="password"  />
+				<input type="password" name="password" value="123"  />
 				</p>
 				<input name="saveAccounts" id="saveAccounts" value="1" type="checkbox"
 <?php
